@@ -12,7 +12,7 @@ Com o [Node](https://nodejs.org/en/) instalado em sua máquina, utilize estes co
 
 
 # Acesse a pasta e inicie o projeto
-# executar o arquivo database.sql no workbench
+$ executar o arquivo database.sql no workbench
 
 # Baixe ou clone este repositório
 $ git clone https://github.com/ValderiDouglas/Ativ5.git
