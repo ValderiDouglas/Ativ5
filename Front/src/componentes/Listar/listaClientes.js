@@ -26,12 +26,6 @@ export default function ListaClientes(props) {
         });
     }
 
-    // quando clicar no maior numero compra, ele vai filtrar a lista de acordo com o maior numero de compra
-    const filtraConsumo = () => {
-        Axios.get(`http://localhost:3001/read/filtro/consumo`).then((resp) => {
-            setLista(resp.data);
-        });
-    }
 
     return (
         <div>
@@ -46,7 +40,7 @@ export default function ListaClientes(props) {
                 </div>
 
                 <div className={formatacao}>
-                    <p className={estilo} onClick={() => filtraConsumo()} value= "">Maior número de compras</p>
+                    <p className={estilo} value= "">Maior número de compras</p>
                 </div>
 
                 <div className={formatacao}>
