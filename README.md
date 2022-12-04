@@ -14,7 +14,7 @@ Com o [Node](https://nodejs.org/en/) instalado em sua máquina, utilize estes co
 # Acesse a pasta e inicie o projeto
 $ executar o arquivo database.sql no workbench
 # entre na pasta Ativ5\Back\src\config
-$ altere o arquivo no campo "admin" para a senha do seu Workbench
+$ altere o campo "admin" para a senha do seu Workbench
 
 # Baixe ou clone este repositório
 $ git clone https://github.com/ValderiDouglas/Ativ5.git
